@@ -59,13 +59,14 @@ p{
 .col-2 img
 {
     max-width: 100%;
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 .col-2 h1{
     font-size: 50px;
     line-height: 60px;
     margin: 0 30px;
     color: #fff;
+    width: 485px;
 }
 .btn
 {
@@ -83,9 +84,22 @@ p{
     background: #fff;
     color: blue;
     padding: 8px 30px;
-    margin: 0px 200px;
+    margin: 0px 160px;
+    width: max-content;
     border-radius: 30px;
     transition: background 0.5s;
+}
+.btn-11
+{
+    display: inline-block;
+    background: #004dff;
+    color: white;
+    padding: 8px 30px;
+    margin: 0px 160px;
+    width: max-content;
+    border-radius: 30px;
+    transition: background 0.5s;
+    border: 1px solid #fff;
 }
 .btn-2
 {
@@ -209,13 +223,13 @@ small
 }
 .testimonial
 {
-    padding-top: 100px;
+    padding-top: 10px;
  }
  .testimonial .col-3
  {
      text-align: center;
      padding: 40px 20px;
-     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+     box-shadow: 0 0 0px 0px rgba(0,0,0,0.1);
      cursor: pointer;
      background-color: #f0f1f5;
  }
@@ -250,7 +264,7 @@ small
      margin-bottom: 0%;
  }
 .col-5{
-    width: 160px;
+    width: 80px;
 }
 .col-5 img{
     width: 100%;
